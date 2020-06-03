@@ -1,0 +1,6 @@
+---
+image_base: centos/7
+test_cmd: /tests/check-first-page.sh
+IMAGE_NAME: elk
+IMAGE_VERSION: 7.2.0.0
+dockerfile_path: "{{ work_path }}/Dockerfile"
